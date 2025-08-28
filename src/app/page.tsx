@@ -1,13 +1,12 @@
-use client
-import CarouselInfiniteLoop from '@/components/carousel/CarouselInfiniteLoop/CarouselInfiniteLoop';
+"use client"
+import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import TextboxStandard from '@/components/textbox/TextboxStandard';
+import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
+import YearRoadmapTimeline from '@/components/sections/layouts/roadmap/YearRoadmapTimeline';
 import TimelineBase from '@/components/timeline/TimelineBase';
 import ButtonHoverBubble from '@/components/buttons/ButtonHoverBubble';
-import CentralFAQ from '@/components/sections/layouts/faq/CentralFAQ';
+import CarouselInfiniteLoop from '@/components/carousel/CarouselInfiniteLoop/CarouselInfiniteLoop';
 import BentoKPIStandard from '@/components/bento/BentoKPIStandard';
-import YearRoadmapTimeline from '@/components/sections/layouts/roadmap/YearRoadmapTimeline';
-import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import { useEffect, useState } from 'react';
 
 const images = [
   { src: '/images/placeholder1.avif', alt: 'Car Model 1' },
@@ -28,8 +27,8 @@ const Home = () => {
     <div>
       <section id="hero" className="bg-gradient-to-r from-[#1F8EF1] to-[#9AE6B4] py-32 text-center">
         <TextboxStandard 
-          title={<h1 className="text-6xl font-bold">Welcome to CarSprint!</h1>}
-          description={<p className="text-xl mt-4">Your one-stop shop for the best cars!</p>}
+          title={"Welcome to CarSprint!"}
+          description={"Your one-stop shop for the best cars!"}
         />
         <ButtonHoverBubble text="Browse Inventory" onClick={() => window.scrollTo(0, document.getElementById('inventory').offsetTop)} className="mt-8" />
       </section>
