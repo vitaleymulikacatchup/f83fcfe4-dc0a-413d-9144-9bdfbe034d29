@@ -1130,9 +1130,9 @@
       }
     },
     {
-      "import": "import TimelineCardStack from '@/components/timelines/TimelineCardStack';",
+      "import": "import TimelineCardStack from '@/components/timeline/TimelineCardStack';",
       "name": "TimelineCardStack",
-      "path": "@/components/timelines/TimelineCardStack",
+      "path": "@/components/timeline/TimelineCardStack",
       "description": "Stacked timeline layout where each card displays an image, title, and subtitle, alternating between left and right alignment.",
       "details": "Use for storytelling or project phases where cards should appear stacked in a vertical sequence. Each card requires an image, title, and subtitle. Layout alternates image and text positioning for visual rhythm.",
       "constraints": {
@@ -1180,9 +1180,9 @@
       }
     },
     {
-      "import": "import Timeline3DCardStack from '@/components/timelines/Timeline3DCardStack';",
+      "import": "import Timeline3DCardStack from '@/components/timeline/Timeline3DCardStack';",
       "name": "Timeline3DCardStack",
-      "path": "@/components/timelines/Timeline3DCardStack",
+      "path": "@/components/timeline/Timeline3DCardStack",
       "description": "Stacked timeline where each step appears on a raised 3D card with subtle tilt/parallax.",
       "details": "Use for narrative timelines or project phases that benefit from depth and motion. Each card requires an image, a short title, and a supporting subtitle. Cards alternate left/right for rhythm and use a gentle 3D tilt on hover/scroll.",
       "constraints": {
@@ -1215,9 +1215,9 @@
       }
     },
     {
-      "import": "import TimelineProcessFlow from '@/components/timelines/TimelineProcessFlow';",
+      "import": "import TimelineProcessFlow from '@/components/timeline/TimelineProcessFlow';",
       "name": "TimelineProcessFlow",
-      "path": "@/components/timelines/TimelineProcessFlow",
+      "path": "@/components/timeline/TimelineProcessFlow",
       "description": "Alternating process timeline. Each step shows an image, a title, a subtitle, and exactly three key points.",
       "details": "Use for describing phased processes (research, design, build, etc.). Cards alternate left/right around a central line with step markers. Every card requires one image plus text (title, subtitle, and three concise bullet points).",
       "constraints": {
@@ -1278,9 +1278,9 @@
       }
     },
     {
-      "import": "import TimelineYearly from '@/components/timelines/TimelineYearly';",
+      "import": "import TimelineYearly from '@/components/timeline/TimelineYearly';",
       "name": "TimelineYearly",
-      "path": "@/components/timelines/TimelineYearly",
+      "path": "@/components/timeline/TimelineYearly",
       "description": "Year-based timeline with a left-aligned year list and right-aligned details. The active year highlights and its milestones appear to the right.",
       "details": "Use for roadmaps or company histories organized by year. Each year contains one or more entries (title + short description). No images. The active year can be driven by scroll or clicked in the year list.",
       "constraints": {
@@ -1332,9 +1332,9 @@
       }
     },
     {
-      "import": "import TimelinePhoneView from '@/components/timelines/TimelinePhoneView/TimelinePhoneView';",
+      "import": "import TimelinePhoneView from '@/components/timeline/TimelinePhoneView/TimelinePhoneView';",
       "name": "TimelinePhoneView",
-      "path": "@/components/timelines/TimelinePhoneView/TimelinePhoneView",
+      "path": "@/components/timeline/TimelinePhoneView/TimelinePhoneView",
       "description": "Phone-framed timeline where each step shows an image beside large step text. Cards tilt/stagger for a dynamic, mobile-showcase feel.",
       "details": "Use for storytelling or process sections that pair big imagery with concise copy. Each card REQUIRES an image plus short title and subtitle. Layout staggers left/right with subtle tilt to mimic phone screens.",
       "constraints": {
